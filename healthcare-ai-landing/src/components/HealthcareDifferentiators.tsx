@@ -85,7 +85,7 @@ export default function HealthcareDifferentiators() {
           {differentiators.map((differentiator, index) => (
             <div
               key={index}
-              ref={(el) => cardRefs.current[index] = el}
+              ref={(el) => { cardRefs.current[index] = el; }}
               className={`
                 ${differentiator.bgColor} 
                 rounded-2xl p-8 shadow-lg hover:shadow-xl 
