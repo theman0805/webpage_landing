@@ -12,6 +12,17 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+  userScalable: true,
+  themeColor: [
+    { media: '(prefers-color-scheme: light)', color: '#1e40af' },
+    { media: '(prefers-color-scheme: dark)', color: '#1e40af' }
+  ],
+};
+
 export const metadata: Metadata = {
   title: {
     default: "Cliniq - Transforming Medical Practice with AI Solutions",
@@ -32,16 +43,6 @@ export const metadata: Metadata = {
   alternates: {
     canonical: '/',
   },
-  viewport: {
-    width: 'device-width',
-    initialScale: 1,
-    maximumScale: 5,
-    userScalable: true,
-  },
-  themeColor: [
-    { media: '(prefers-color-scheme: light)', color: '#1e40af' },
-    { media: '(prefers-color-scheme: dark)', color: '#1e40af' }
-  ],
   manifest: '/manifest.json',
   openGraph: {
     title: "Cliniq - Transforming Medical Practice with AI Solutions",
