@@ -1,0 +1,26 @@
+{
+  "name": "Healthcare AI - Transforming Medical Practice",
+  "short_name": "Healthcare AI",
+  "description": "Building intelligent software that streamlines clinical workflows, enhances patient care, and transforms healthcare delivery through cutting-edge AI technology.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1e40af",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16 32x32 48x48",
+      "type": "image/x-icon"
+    }
+  ],
+  "categories": ["healthcare", "medical", "ai", "technology"],
+  "lang": "en-US",
+  "orientation": "portrait-primary",
+  "scope": "/"
+}
