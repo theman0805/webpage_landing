@@ -32,7 +32,7 @@ export default function HealthcareChallenge() {
     <section className="py-16 px-4 max-w-7xl mx-auto">
       <div className="text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-          Healthcare's Digital Transformation Challenge
+          Healthcare&apos;s Digital Transformation Challenge
         </h2>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
           The healthcare industry faces unprecedented challenges that demand innovative solutions
@@ -72,7 +72,7 @@ export default function HealthcareChallenge() {
 
       <div className="text-center">
         <div className="inline-block bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-lg transform hover:scale-105 transition-transform duration-300">
-          We're building the AI infrastructure to solve these challenges
+          We&apos;re building the AI infrastructure to solve these challenges
         </div>
       </div>
     </section>

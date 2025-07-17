@@ -36,7 +36,7 @@ export default function InvestorCTA() {
           </div>
 
           <p className="text-gray-400 mb-8 max-w-2xl mx-auto leading-relaxed">
-            We're positioned at the forefront of this transformation, developing AI solutions that address critical healthcare challenges while creating substantial market value.
+            We&apos;re positioned at the forefront of this transformation, developing AI solutions that address critical healthcare challenges while creating substantial market value.
           </p>
 
           <Button 

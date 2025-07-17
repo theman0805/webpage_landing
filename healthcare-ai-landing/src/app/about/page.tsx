@@ -99,7 +99,7 @@ export default function About() {
             Transforming Healthcare Through Intelligent Technology
           </h1>
           <p className="text-xl md:text-2xl text-blue-100 mb-8 leading-relaxed">
-            We're on a mission to democratize AI-powered healthcare, making world-class medical intelligence accessible to every patient and provider.
+            We&apos;re on a mission to democratize AI-powered healthcare, making world-class medical intelligence accessible to every patient and provider.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
@@ -135,13 +135,13 @@ export default function About() {
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Why We Started This Journey</h2>
               <div className="prose prose-lg text-gray-600">
                 <p className="mb-6">
-                  Our founder's journey began in a hospital waiting room, watching their grandmother struggle with a misdiagnosis that could have been prevented with better access to medical intelligence. That moment sparked a realization: the gap between cutting-edge medical knowledge and everyday healthcare delivery was too wide.
+                  Our founder&apos;s journey began in a hospital waiting room, watching their grandmother struggle with a misdiagnosis that could have been prevented with better access to medical intelligence. That moment sparked a realization: the gap between cutting-edge medical knowledge and everyday healthcare delivery was too wide.
                 </p>
                 <p className="mb-6">
                   Having witnessed firsthand how AI was transforming other industries, we saw an opportunity to bridge this gap in healthcare. But we knew it had to be done right—with deep respect for the complexity of medical practice and the sacred trust between patients and providers.
                 </p>
                 <p>
-                  Today, we're building the AI infrastructure that will make world-class medical intelligence accessible to every corner of the healthcare system, from rural clinics to major medical centers.
+                  Today, we&apos;re building the AI infrastructure that will make world-class medical intelligence accessible to every corner of the healthcare system, from rural clinics to major medical centers.
                 </p>
               </div>
             </div>
@@ -154,7 +154,7 @@ export default function About() {
                 </div>
                 <blockquote className="text-center">
                   <p className="text-lg text-gray-700 italic mb-4">
-                    "Healthcare is too important to leave to chance. AI can help us make it more precise, more accessible, and more human."
+                    &ldquo;Healthcare is too important to leave to chance. AI can help us make it more precise, more accessible, and more human.&rdquo;
                   </p>
                   <footer className="text-gray-500 font-medium">— Founder & CEO</footer>
                 </blockquote>
@@ -291,7 +291,7 @@ export default function About() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-6">Join Us in Transforming Healthcare</h2>
           <p className="text-xl mb-8 text-blue-100">
-            Whether you're a healthcare professional, researcher, or someone who shares our vision, we'd love to have you join our mission to democratize AI-powered healthcare.
+            Whether you&apos;re a healthcare professional, researcher, or someone who shares our vision, we&apos;d love to have you join our mission to democratize AI-powered healthcare.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 

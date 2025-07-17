@@ -77,7 +77,7 @@ export default function HealthcareDifferentiators() {
             Built for the Future of Healthcare
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Our platform is designed with healthcare's unique needs in mind, delivering solutions that are secure, integrated, and purpose-built for medical environments
+            Our platform is designed with healthcare&apos;s unique needs in mind, delivering solutions that are secure, integrated, and purpose-built for medical environments
           </p>
         </div>
 

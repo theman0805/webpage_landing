@@ -54,7 +54,7 @@ export default function VisionMission() {
           </h2>
           
           <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-gray-700 max-w-5xl mx-auto leading-relaxed font-light">
-            We're creating an integrated AI ecosystem that makes world-class healthcare accessible, efficient, and personalized
+            We&apos;re creating an integrated AI ecosystem that makes world-class healthcare accessible, efficient, and personalized
           </p>
         </div>
 

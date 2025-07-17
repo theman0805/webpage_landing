@@ -110,10 +110,10 @@ export default function Contact() {
         
         <div className="relative z-10 max-w-4xl mx-auto text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-            Let's Build the Future of Healthcare Together
+            Let&apos;s Build the Future of Healthcare Together
           </h1>
           <p className="text-xl md:text-2xl text-blue-100 mb-8 leading-relaxed">
-            Ready to transform healthcare through AI? We'd love to hear from you. Let's start a conversation about how we can work together.
+            Ready to transform healthcare through AI? We&apos;d love to hear from you. Let&apos;s start a conversation about how we can work together.
           </p>
         </div>
 

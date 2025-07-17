@@ -75,7 +75,7 @@ export default function NeuralNetworkVisualization() {
       ctx.clearRect(0, 0, width, height);
 
       // Update and draw nodes
-      nodes.forEach((node, i) => {
+      nodes.forEach((node) => {
         // Update position
         node.x += node.vx;
         node.y += node.vy;
@@ -110,7 +110,7 @@ export default function NeuralNetworkVisualization() {
 
       // Add data flow effect
       const time = Date.now() * 0.001;
-      nodes.forEach((node, i) => {
+      nodes.forEach((node) => {
         node.connections.forEach(targetIndex => {
           const target = nodes[targetIndex];
           if (target) {
