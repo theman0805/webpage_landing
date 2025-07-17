@@ -12,7 +12,7 @@ interface Node {
 
 export default function NeuralNetworkVisualization() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const animationRef = useRef<number>();
+  const animationRef = useRef<number | undefined>(undefined);
   const nodesRef = useRef<Node[]>([]);
   const [isClient, setIsClient] = useState(false);
 
@@ -75,7 +75,7 @@ export default function NeuralNetworkVisualization() {
       ctx.clearRect(0, 0, width, height);
 
       // Update and draw nodes
-      nodes.forEach((node) => {
+      nodes.forEach((node, i) => {
         // Update position
         node.x += node.vx;
         node.y += node.vy;
@@ -110,7 +110,7 @@ export default function NeuralNetworkVisualization() {
 
       // Add data flow effect
       const time = Date.now() * 0.001;
-      nodes.forEach((node) => {
+      nodes.forEach((node, i) => {
         node.connections.forEach(targetIndex => {
           const target = nodes[targetIndex];
           if (target) {
